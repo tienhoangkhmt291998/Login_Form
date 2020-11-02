@@ -22,5 +22,6 @@
 # nếu lỗi GitHub “fatal: remote origin already exists
 # mình sẽ nhập lênh : git remote rm origin
 # sau đó sẽ git remote add origin   repository đã #tạo 
+# * git push -u origin main push code len git
 
 
