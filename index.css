@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 500px;
+  width: 100%;
+}
+
+.login__form {
+  width: 100%;
+  text-align: center;
+}
+
+.login__form label {
+  display: block;
+  margin: auto;
+}
+
+.login__form input {
+  border: 1px solid rgba(183, 174, 174, 0.6);
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.login__form input:focus {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #0069d9;
+  outline: 4px solid rgba(0, 105, 217, 0.3);
+}
+
+.login__form .module {
+  width: 50%;
+  text-align: left;
+  padding: 10px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.login__form .login__form--btn {
+  margin: 5px auto;
+  padding: 0 !important;
+}
+
+.login__form .login__form--btn button {
+  background-color: #0069d9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 29px;
+  padding: 0 10px;
+  border-radius: 5px;
+  display: block;
+  margin: 5px 0;
+}
+
+.login__form .login__form--btn button:focus {
+  outline: none;
+}
+
+.login__form .login__form--btn button:hover {
+  opacity: 0.6;
+}
+
+.login__form .login__form--btn label.label_checkbox {
+  display: inline;
+}
+/*# sourceMappingURL=index.css.map */
