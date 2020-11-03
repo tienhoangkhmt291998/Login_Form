@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #13938e;
+  margin: auto;
+}
+
+header .banner {
+  width: 80%;
+}
+
+header .banner .banner__header--logo {
+  height: 40px;
+  width: 150px;
+  background-clip: content-box;
+  background-image: url("https://cdn.viettelstore.vn/desktop/img/Assets.png");
+}
+/*# sourceMappingURL=index.css.map */
