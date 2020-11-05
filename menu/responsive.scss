@@ -1,0 +1,8 @@
+@use 'varibale';
+
+
+@media only screen and  (max-width:varibale.$screen_sm){
+    nav{
+        display: none;
+    }
+}
